@@ -25,10 +25,12 @@ nav{
     align-items: center;
     padding: 0 30px;
     transition:transform 0.3s ease;
+    transition: 0.3s;
     z-index: 100;
 }
 nav.hidden{
     transform: translateY(-100%);
+    opacity: 0%;
 }
 
 .logo{
@@ -66,8 +68,35 @@ nav.hidden{
 }
 
 section{
-    min-height: 100vh;
     padding: 100px 30px;
+    display: flex;
+    align-items: center;
+}
+section h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
+section hr{
+    height: 30vh;
+    border: solid rgb(139, 213, 250) 2px;
+    margin: 0 20px;
+}
+section img{
+    width: 400px;
+    margin: 0 20px;
+    background-color: #6eaff0;
+    border-radius: 1rem;
+    box-shadow: #1d3144 10px 10px 5px;
+    padding: .2rem;
+}
+section p{
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 100%;
+    width: 100%;
 }
 
 #inicio{
