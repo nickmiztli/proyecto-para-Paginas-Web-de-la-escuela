@@ -67,51 +67,7 @@ nav.hidden{
     border-radius:5px ;
 }
 
-section{
-    padding: 100px 30px;
-    display: flex;
-    align-items: center;
-}
-section h2{
-    font-size: 32px;
-    margin-bottom: 20px;
-    display: flex;
-    width: 200px;
-    align-items: center;
-}
-section hr{
-    height: 30vh;
-    border: solid rgb(139, 213, 250) 2px;
-    margin: 0 20px;
-}
-section img{
-    width: 400px;
-    margin: 0 20px;
-    background-color: #6eaff0;
-    border-radius: 1rem;
-    box-shadow: #1d3144 10px 10px 5px;
-    padding: .2rem;
-}
-section p{
-    font-size: 18px;
-    line-height: 1.6;
-    max-width: 100%;
-    width: 100%;
-}
 
-#inicio{
-    background: #f4f4f4;
-}
-
-#historia{
-    background: #e8e8e8;
-}
-#oferta{
-    background-color: #dcdcdc;
-}
-#contacto{
-    background: #d0d0d0;
-}
 
 #menuBtn{
     position: fixed;
