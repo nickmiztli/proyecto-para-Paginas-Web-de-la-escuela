@@ -79,6 +79,8 @@ nav.hidden{
     border-radius: 50%;
     font-size: 24px;
     cursor: pointer;
+    background-color: #00000000;
+    border: 2px solid pink;
     z-index: 1001;
     transition: 0.3s ease;
 }

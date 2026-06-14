@@ -29,6 +29,40 @@ section p{
     max-width: 100%;
     width: 100%;
 }
+section a{
+    background-color: #1d3144;
+    color: wheat;
+    text-align: center;
+    padding: 15px;
+    border-radius: 1.3rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: #6eaff0 4px solid;
+    border-right: #6eaff0 4px solid;
+    transition: .2s;
+    margin-left: 10px;
+}
+section a:hover{
+    background-color: #345879;
+    border-bottom: #73b8fc 4px solid;
+    border-right: #73b8fc 4px solid;
+    scale: 0.95;   
+}
+section a:active{
+    background-color: #b4d7fa;
+    border-bottom: #7cbbc5 4px solid;
+    border-right: #7cbbc5 4px solid;
+    color: black;
+}
+section p{
+    text-align: justify;
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 10px;
+    opacity: 25%;
+}
 
 #inicio{
     background: #f4f4f4;
